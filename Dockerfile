@@ -10,7 +10,8 @@ RUN apt-get install -y apt-transport-https && \
   curl -1sLf 'https://dl.modular.com/bBNWiLZX5igwHXeu/installer/config.deb.txt?distro=debian&codename=wheezy' > /etc/apt/sources.list.d/modular-installer.list && \
   apt-get update && \
   apt-get install -y modular
-RUN modular auth mut_96baff1ae4d14bb9bd2151291910d26b && \
+ARG MODULAR_AUTH_KEY
+RUN modular auth ${MODULAR_AUTH_KEY} && \
 modular install mojo
 RUN echo 'export MODULAR_HOME="$HOME/.modular"' >> ~/.bashrc && \
 echo 'export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"' >> ~/.bashrc

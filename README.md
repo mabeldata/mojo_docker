@@ -21,6 +21,10 @@ Requirements
 git clone https://github.com/mabeldata/mojo_docker.git
 ```
 
+2. Go to [Modular](https://developer.modular.com/signup) and sign up.
+
+3. Now copy the MODULAR_AUTH key and paste in the docker-compose.yml file in args: MODULAR_AUTH_KEY= and save it.
+
 2. Now run the docker-compose file:
 
 ```
