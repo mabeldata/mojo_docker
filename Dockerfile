@@ -14,4 +14,5 @@ RUN modular auth mut_96baff1ae4d14bb9bd2151291910d26b && \
 modular install mojo
 RUN echo 'export MODULAR_HOME="$HOME/.modular"' >> ~/.bashrc && \
 echo 'export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"' >> ~/.bashrc
+RUN pip install ipykernel
 CMD ["/bin/bash"]
