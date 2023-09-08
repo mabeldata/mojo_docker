@@ -2,7 +2,7 @@
 
 [![Maintained_By Mabel Data](https://img.shields.io/badge/Maintained_By-MabelData-purple)](https://github.com/mabeldata/mojo_docker/blob/main/LICENSE)
 
-All the right's belong to [Modular](https://www.modular.com/)
+All rights reserved to [Modular](https://www.modular.com/)
 
 ## Objective
 
