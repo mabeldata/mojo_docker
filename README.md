@@ -35,3 +35,10 @@ docker-compose up -d
 
 4. In the new VSCode window, use the command Ctrl + J and then in the console write mojo, from there you are good to go!
 
+## Flavors
+
+It will be add with time new custom compose files as users will need different setups for their projects developments.
+
+## Known Issues
+
+1. Is known that even with docker for now, machines that use ARM instead of AMD e.g: Mac M1/M2, will not work.
