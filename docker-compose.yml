@@ -4,6 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        "MODULAR_AUTH_KEY=${MODULAR_AUTH_KEY}"
+        - MODULAR_AUTH_KEY=key_value
     tty: true
     stdin_open: true
