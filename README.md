@@ -39,6 +39,10 @@ docker-compose up -d
 
 It will be add with time new custom compose files as users will need different setups for their projects developments.
 
+## Training
+Freecodecamp released a free training covering the basics of Mojo, you can check it below:
+[Mojo Programming Language – Full Course for Beginners](https://youtu.be/5Sm9IVMet9c?si=SIBrX7y0SAeEwbIe)
+
 ## Known Issues
 
 1. Is known that even with docker for now, machines that use ARM instead of AMD e.g: Mac M1/M2, will not work.
